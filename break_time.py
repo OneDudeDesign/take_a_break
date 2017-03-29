@@ -13,7 +13,7 @@ while break_num < num_breaks:
     #TODO change to one hour for production
     time.sleep(10)
     #indicate the breaktime
-    print ('Take a Break At' + time.ctime())
+    print ('Take a Break At :' + time.ctime())
     webbrowser.open("https://www.youtube.com/watch?v=m9AT7H4GGrA")
     break_num = break_num + 1
 
