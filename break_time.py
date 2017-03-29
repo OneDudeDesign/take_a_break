@@ -10,7 +10,7 @@ print('Program Started at :' + time.ctime())
 # loop for three breaks
 while break_num < num_breaks:
     # sleep at 10 seconds for testing
-    #TODO change to one hour for production
+    # TODO change to one hour for production
     time.sleep(10)
     # indicate the breaktime
     print ('Take a Break At :' + time.ctime())
